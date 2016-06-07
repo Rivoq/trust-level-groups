@@ -1,3 +1,8 @@
+# name: trust-level-groups
+# about: A Discourse plugin to add badges next to usernames by adding them to primary groups
+# version: 0.2
+# authors: ambisoft
+
 after_initialize do
 
   class ::Jobs::TrustLevelGroupsMembership < Jobs::Scheduled
